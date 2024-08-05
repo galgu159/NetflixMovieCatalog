@@ -22,7 +22,7 @@ def home():
 @app.route('/discover')
 def get_discover():
     """
-    Find movies using over filters and sort options.
+    Find movies using over filters and sort options.jk
     """
     type_ = request.args.get('type')
     data = data_tv if type_ == 'tv' else data_movies
